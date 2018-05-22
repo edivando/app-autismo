@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="introMain1" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-Ks-hNR">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.84705882349999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pressione a imagem por 2 segundos para ir ao menu." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gue-yk-itv">
+                    <rect key="frame" x="65" y="37" width="470" height="51"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.84705882349999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="Puq-hW-Rrg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gue-yk-itv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="65" id="0Aj-cW-Ffm"/>
+                <constraint firstAttribute="bottom" secondItem="2Av-Ks-hNR" secondAttribute="bottom" id="0nD-0I-9NL"/>
+                <constraint firstAttribute="trailing" secondItem="2Av-Ks-hNR" secondAttribute="trailing" id="3MZ-40-pCc"/>
+                <constraint firstItem="gue-yk-itv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="37" id="DJB-w2-OEW"/>
+                <constraint firstItem="2Av-Ks-hNR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HAP-CZ-KGV"/>
+                <constraint firstItem="gue-yk-itv" firstAttribute="centerX" secondItem="2Av-Ks-hNR" secondAttribute="centerX" id="aPP-eI-UHe"/>
+                <constraint firstItem="2Av-Ks-hNR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dsC-MQ-BIU"/>
+            </constraints>
+            <point key="canvasLocation" x="487" y="499"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="introMain1" width="2048" height="1536"/>
+    </resources>
+</document>

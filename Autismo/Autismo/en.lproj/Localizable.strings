@@ -1,0 +1,345 @@
+/*
+ Localizable.strings
+ Autismo
+ 
+ Created by Edivando Alves on 9/14/15.
+ Copyright © 2015 J7ss. All rights reserved.
+ */
+
+/* Language */
+"language" = "en-US";
+
+/*Menu*/
+"Rotinas" = "Routines";
+"Sobre Nós" = "About Us";
+
+/* UINavigationBar Title */
+"About" = "About";
+
+/* Acknowlegdments header title */
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ makes use of the following third party libraries or songs. Many thanks to the developers making them available!";
+
+/* Privacy Police*/
+"Privacy Policy" = "Privacy Policy";
+"Here's the privacy policy" = "http://app-amoraproject.rhcloud.com/privacyPolicy-en.html";
+
+/*About us*/
+"fazWebsite" = "https://www.facebook.com/fazbrasil";
+"teamWebsite" = "http://app-amoraproject.rhcloud.com/#tf-team";
+"website" = "http://app-amoraproject.rhcloud.com/";
+"facebookWebsite" = "https://www.facebook.com/amoraapp/";
+"team" = "Team";
+"developers" = "Developers";
+"colaborators" = "Colaborators";
+
+/* Tutorial */
+
+"Skip" = "Got it";
+"Here you can see your routines and add custom routines for you child" = "Here you can see your routines and add custom routines for you child.";
+"You can tap on any image to zoom it and see better" = "You can tap on any image to zoom it and see better.";
+"Tap on the blue cameras to add a photo" = "Tap on the blue cameras to add a photo.";
+"You can add as many pictures as you want, after you're done just press the save button" = "You can add as many pictures as you want, after you're done just press the save button.";
+
+/*ImagePicker*/
+
+"Choose were you'll get the picture." = "Choose were you'll get the picture.";
+"Gallery" = "Gallery";
+"Camera" = "Camera";
+"Pick a picute" = "Pick a picute";
+"Cancel" = "Cancel";
+
+/*Behavior Game*/
+"Good0" = "Go to School";
+"Good1" = "Brush Teeth";
+"Good2" = "Play with Friends";
+"Good3" = "Use the Crosswalk";
+"Bad0" = "Scream";
+"Bad1" = "Say Bad Words";
+"Bad2" = "Get Angry";
+"Bad3" = "Cross Carelessly";
+"Good0Result" = "Go to School is Good";
+"Good1Result" = "Brush Teeth is Good";
+"Good2Result" = "Play with Friends is Good";
+"Good3Result" = "Use the Crosswalk is Good";
+"Bad0Result" = "Scream is Bad";
+"Bad1Result" = "Say Bad Words is Bad";
+"Bad2Result" = "Get Angry is Bad";
+"Bad3Result" = "Cross Carelessly is Bad";
+
+/*Animal Game*/
+"Monkey" = "Monkey";
+"Cat" = "Cat";
+"Dog" = "Dog";
+"Cow" = "Cow";
+"Frog" = "Frog";
+"Horse" = "Horse";
+"Lion" = "Lion";
+"Pig" = "Pig";
+"Rooster" = "Rooster";
+"Sheep" = "Sheep";
+"Tiger" = "Tiger";
+
+/*Sequence Game */
+"circulo_amarelo" = "Yellow";
+"circulo_azul" = "Blue";
+"circulo_marrom" = "Brown";
+"circulo_laranja" = "Orange";
+"circulo_rosa" = "Pink";
+"circulo_verde" = "Green";
+
+"formas_circulo" = "Circle";
+"formas_coracao" = "Heart";
+"formas_estrela" = "Star";
+"formas_pentagono" = "Pentagon";
+"formas_quadrado" = "Square";
+"formas_triangulo" = "Triangle";
+
+"numero_1" = "1";
+"numero_2" = "2";
+"numero_3" = "3";
+"numero_4" = "4";
+"numero_5" = "5";
+"numero_6" = "6";
+
+"Car" = "Car";
+"Duck" = "Duck";
+"Octopus" = "Octopus";
+"Boat" = "Boat";
+"Ball" = "Ball";
+"Owl" = "Owl";
+
+"frutas_abacaxi" = "Pineapple";
+"frutas_banana" = "Banana";
+"frutas_laranja" = "Orange";
+"frutas_maca" = "Apple";
+"frutas_melancia" = "Watermelon";
+"frutas_uva" = "Grape";
+
+"legumes_abobora" = "Pumpkin";
+"legumes_batata" = "Potato";
+"legumes_berinjela" = "Aubergine";
+"legumes_brocolis" = "Broccoli";
+"legumes_cenoura" = "Carrot";
+"legumes_pimentao" = "Bell Pepper";
+
+"bule" = "Teapot";
+"cadeado" = "Padlock";
+"faca" = "Knife";
+"mesa" = "Table";
+"sol" = "Sun";
+"vaso" = "Vase";
+"par_bule" = "Cup";
+"par_cadeado" = "Key";
+"par_faca" = "Fork";
+"par_mesa" = "Chair";
+"par_sol" = "Moon";
+"par_vaso" = "Flower";
+"par_buleResult" = "Cup and Teapot";
+"par_cadeadoResult" = "Key and Padlock";
+"par_facaResult" = "Fork and Knife";
+"par_mesaResult" = "Chair and Table";
+"par_solResult" = "Moon and Sun";
+"par_vasoResult" = "Flower and Vase";
+
+"cachorro" = "Dog";
+"coelho" = "Rabbit";
+"macaco" = "Monkey";
+"mao" = "Hand";
+"papel" = "Paper";
+"pasta" = "Toothpaste";
+"par_cachorro" = "Bone";
+"par_coelho" = "Carrot";
+"par_macaco" = "Banana";
+"par_mao" = "Ring";
+"par_papel" = "Pencil";
+"par_pasta" = "Toothbrush";
+"par_cachorroResult" = "Bone and Dog";
+"par_coelhoResult" = "Carrot and Rabbit";
+"par_macacoResult" = "Banana and Monkey";
+"par_maoResult" = "Ring and Hand";
+"par_papelResult" = "Pencil and Paper";
+"par_pastaResult" = "Toothbrush and Toothpaste";
+
+
+/*Landscape Game*/
+"level0_circle" = "Red Circle";
+"level0_square" = "Green Square";
+"level0_star" = "Yellow Star";
+"level0_triangle" = "Purple Triangle";
+
+"level1_cloud" = "Cloud";
+"level1_house" = "House";
+"level1_sun" = "Sun";
+"level1_tree" = "Tree";
+
+"level2_boat" = "Boat";
+"level2_sun" = "Sun";
+"level2_surf" = "Surfboard";
+"level2_umbrella" = "Parasol";
+
+"level3_moon" = "Moon";
+"level3_rocket" = "Rocket";
+"level3_satellite" = "Satellite";
+"level3_earth" = "Earth";
+
+"level4_barn" = "Barn";
+"level4_rainbow" = "Rainbow";
+"level4_sun" = "Sun";
+"level4_tractor" = "Tractor";
+
+"level5_alien" = "Alien";
+"level5_comet" = "Comet";
+"level5_saturn" = "Saturn";
+"level5_UFO" = "UFO";
+
+/*Intruments Game*/
+"Acoustic Guitar" = "Acoustic Guitar";
+"Banjo" = "Banjo";
+"Drum Set" = "Drum Set";
+"Electric Guitar" = "Electric Guitar";
+"Flute" = "Flute";
+"Piano" = "Piano";
+"Saxophone" = "Saxophone";
+"Shaker" = "Shaker";
+"Drum" = "Drum";
+"Harp" = "Harp";
+"Tambourine" = "Tambourine";
+
+/*Numbers Game*/
+"NumbersApple" = "Apple";
+"NumbersBall" = "Ball";
+"NumbersBoat" = "Boat";
+"NumbersCar" = "Car";
+"NumbersDuck" = "Duck";
+"NumbersElefant" = "Elefant";
+"NumbersOctopus" = "Octopus";
+"NumbersOwl" = "Owl";
+"NumbersSheep" = "Sheep";
+"NumbersStar" = "Star";
+
+"1fem" = "1";
+"2fem" = "2";
+
+"Count_1_1" = "3 minus 2 equals";
+"Count_1_2" = "5 minus 4 equals";
+"Count_1_3" = "7 minus 6 equals";
+
+"Count_2_1" = "1 plus 1 equals";
+"Count_2_2" = "3 minus 1 equals";
+"Count_2_3" = "4 minus 2 equals";
+
+"Count_3_1" = "4 minus 1 equals";
+"Count_3_2" = "2 plus 1 equals";
+"Count_3_3" = "5 minus 2 equals";
+
+"Count_4_1" = "2 plus 2 equals";
+"Count_4_2" = "6 minus 2 equals";
+"Count_4_3" = "3 plus 1 equals";
+
+"Count_5_1" = "4 plus 1 equals";
+"Count_5_2" = "2 plus 3 equals";
+"Count_5_3" = "9 minus 4 equals";
+
+/*Feeling Scene*/
+"happy" = "Happy";
+"angry" = "Angry";
+"sad" = "Sad";
+"tired" = "Tired";
+"apaixonado" = "In Love";
+"assustado" = "Scared";
+"envergonhado" = "Shy";
+"eyes_happy" = "Happy eyes";
+"eyes_tired" = "Tired eyes";
+"eyes_angry" = "Angry eyes";
+"eyes_sad" = "Sad eyes";
+"eyes_apaixonado" = "In love eyes";
+"eyes_assustado" = "Scared eyes";
+"eyes_envergonhado" = "Shy eyes";
+"mouth_happy" = "Happy mouth";
+"mouth_angry" = "Angry mouth";
+"mouth_sad" = "Sad mouth";
+"mouth_tired" = "Tired mouth";
+"mouth_apaixonado" = "In love mouth";
+"mouth_assustado" = "Scared mouth";
+"mouth_envergonhado" = "Shy mouth";
+
+/* Dressing Game */
+"menina_party" = "Go to the party";
+"menina_hangout" = "Hangout with friends";
+"menina_beach" = "Go to the beach";
+"menina_school" = "Go to school";
+"menino_hangout" = "Hangout with friends";
+"menino_school" = "Go to school";
+"menino_work" = "Go to work";
+"menina_vestido_1"= "Dress";
+"menina_maio" = "Swimsuit";
+"menina_saia_1" = "Skirt";
+"menina_saia_2" = "Skirt";
+"menina_blusa_1" = "T-Shirt";
+"menina_blusa_2" = "T-Shirt";
+"menino_blusa_1" = "T-Shirt";
+"menino_blusa_2" = "T-Shirt";
+"menino_blusa_3" = "Suit";
+"menino_calca_1" = "Pants";
+"menino_calca_2" = "Pants";
+"menino_calca_3" = "Pants";
+
+/* Words Game */
+"apple" = "apple";
+"ball" = "ball";
+"banana" = "banana";
+"bee" = "bee";
+"boat" = "boat";
+"bone" = "bone";
+"cake" = "cake";
+"car" = "car";
+"cat" = "cat";
+"cow" = "cow";
+"dice" = "dice";
+"dog" = "dog";
+"duck" = "duck";
+"frog" = "frog";
+"hand" = "hand";
+"horse" = "horse";
+"house" = "house";
+"kite" = "kite";
+"monkey" = "monkey";
+"moon" = "moon";
+"octopus" = "octopus";
+"owl" = "owl";
+"pig" = "pig";
+"ring" = "ring";
+"sheep" = "sheep";
+"shovel" = "shovel";
+"gameStar" = "star";
+"sun" = "sun";
+"tree" = "tree";
+
+/* ProfileViewController */
+"name_ola" = "Hello Little Friends";
+
+
+/*Routines*/
+"No images alert" = "There are no images to add.";
+"Please add at least one image." = "Please add at least one image.";
+"Yes" = "Yes";
+"No" = "No";
+"OK" = "OK";
+"Do you want to save this routine?" = "Do you want to save this routine?";
+"It may take some time." = "It may take some time.";
+"What is the name of this routine?" = "What is the name of this routine?";
+"Save" = "Save";
+"My routine" = "My routine";
+"Add New" = "Add New";
+"Haircut" = "Haircut";
+"Restroom" = "Restroom";
+
+/* DonationViewController*/
+
+"Donate to Us" = "Donate to Us";
+"Donation" = "Donation";
+"Donate" = "Donate";
+"DonateDescription" = "Donate to us if you like our work! This way we can keep giving you support and working hard to improve Amora for you!";
+"Thanks!!" = "Thanks!!";
+"Cancel" = "Cancel";
+"ThankYou Message" = "We thank you for the donation!";

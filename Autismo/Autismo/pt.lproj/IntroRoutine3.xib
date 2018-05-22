@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro3" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-Ek-j62">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.84705882349999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKv-xg-anc">
+                    <rect key="frame" x="41" y="361" width="525" height="61"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.84705882349999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="61" id="0tr-0Q-e60"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Você pode adicionar quantas fotos quizer, quando terminar basta clicar no botão de salvar.">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAf-NP-hfj">
+                    <rect key="frame" x="60" y="147" width="486" height="21"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.84705882349999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Ugp-zr-0xe"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Clique nas câmeras azuis para adicionar uma foto.">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eKv-xg-anc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="41" id="8Jh-lh-aaQ"/>
+                <constraint firstItem="LAf-NP-hfj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="FP3-25-h7u"/>
+                <constraint firstItem="gEF-Ek-j62" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JK8-bB-qFN"/>
+                <constraint firstAttribute="trailing" secondItem="gEF-Ek-j62" secondAttribute="trailing" id="c3A-tg-Vzi"/>
+                <constraint firstItem="LAf-NP-hfj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="147" id="c7B-b7-u3o"/>
+                <constraint firstItem="gEF-Ek-j62" firstAttribute="centerX" secondItem="LAf-NP-hfj" secondAttribute="centerX" constant="-3" id="cVN-qa-fR1"/>
+                <constraint firstAttribute="bottom" secondItem="gEF-Ek-j62" secondAttribute="bottom" id="cxe-1K-IEv"/>
+                <constraint firstItem="gEF-Ek-j62" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gSN-Lg-YJs"/>
+                <constraint firstAttribute="bottom" secondItem="eKv-xg-anc" secondAttribute="bottom" constant="178" id="gmx-Ha-hAE"/>
+                <constraint firstAttribute="trailing" secondItem="eKv-xg-anc" secondAttribute="trailing" constant="34" id="wEH-UO-qh6"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="intro3" width="2048" height="1536"/>
+    </resources>
+</document>

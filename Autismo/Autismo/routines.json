@@ -1,0 +1,14 @@
+{
+    "routines": [
+              {"identifier":"routineHaircut",
+              "name": "Haircut",
+              "background": "iconRotineHaircut",
+              "imageNames": [["rotinas_cortarcabelo_1", "rotinas_cortarcabelo_2", "rotinas_cortarcabelo_3", "rotinas_cortarcabelo_4"]]
+              },
+                 {"identifier":"routineRestroom",
+                 "name": "Restroom",
+                 "background": "iconRoutineRestroom",
+                 "imageNames": [["rotinas_banheiro_1", "rotinas_banheiro_2", "rotinas_banheiro_3", "rotinas_banheiro_4"], ["rotinas_banheiro_5", "rotinas_banheiro_6", "rotinas_banheiro_7", "rotinas_banheiro_8"]]
+              }
+              ]
+}

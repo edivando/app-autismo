@@ -1,0 +1,16 @@
+{
+    "levels": [
+              {"identifier":"BehaviorGame",
+              "levels": [["Good0" ,"Bad0"], ["Good0" ,"Good1","Bad0"], ["Good2" ,"Bad2","Bad0"],["Good0" ,"Good1","Bad0","Bad1" ,"Bad2"]]
+              },
+              {"identifier":"NumberGameScene",
+              "levels": ["1", "2", "3", "4", "5", "6"]
+              },
+              {"identifier":"AnimalGameScene",
+              "levels": ["1", "2", "3", "4", "5", "6"]
+              },
+              {"identifier":"Game4",
+              "levels": ["1", "2", "3", "4", "5", "6"]
+              }
+              ]
+}
